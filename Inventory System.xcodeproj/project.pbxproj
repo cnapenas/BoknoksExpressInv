@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED4A27C0FCFBB5D43A06F2EF /* libPods-Inventory System.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 523207225E2648C1CD5284AE /* libPods-Inventory System.a */; };
+		EE310A7D1E9F7B7C004A7B43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE310A7C1E9F7B7C004A7B43 /* main.m */; };
+		EE310A801E9F7B7C004A7B43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE310A7F1E9F7B7C004A7B43 /* AppDelegate.m */; };
+		EE310A831E9F7B7C004A7B43 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE310A821E9F7B7C004A7B43 /* FirstViewController.m */; };
+		EE310A861E9F7B7C004A7B43 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE310A851E9F7B7C004A7B43 /* SecondViewController.m */; };
+		EE310A891E9F7B7C004A7B43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE310A871E9F7B7C004A7B43 /* Main.storyboard */; };
+		EE310A8B1E9F7B7C004A7B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE310A8A1E9F7B7C004A7B43 /* Assets.xcassets */; };
+		EE310A8E1E9F7B7C004A7B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE310A8C1E9F7B7C004A7B43 /* LaunchScreen.storyboard */; };
+		EE310AA31E9FA178004A7B43 /* BoknoksExpressInventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE310A9D1E9FA178004A7B43 /* BoknoksExpressInventory.xcdatamodeld */; };
+		EE310AAA1E9FA4C7004A7B43 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE310AA81E9FA4C7004A7B43 /* CustomTableViewCell.m */; };
+		EE310AAB1E9FA4C7004A7B43 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE310AA91E9FA4C7004A7B43 /* CustomTableViewCell.xib */; };
+		EE310AB41EA0C236004A7B43 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE310AB31EA0C236004A7B43 /* DetailViewController.m */; };
+		EE310AB71EA0D53F004A7B43 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE310AB61EA0D53F004A7B43 /* AddViewController.m */; };
+		EEEBD64C1EA5027F00323F22 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEBD64B1EA5027F00323F22 /* ThirdViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A64E6C3BC16C365B565B12A /* Pods-Inventory System.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory System.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inventory System/Pods-Inventory System.release.xcconfig"; sourceTree = "<group>"; };
+		523207225E2648C1CD5284AE /* libPods-Inventory System.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Inventory System.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E95F2BB1D0942BD8FAF62CF /* Pods-Inventory System.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inventory System.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inventory System/Pods-Inventory System.debug.xcconfig"; sourceTree = "<group>"; };
+		EE310A781E9F7B7C004A7B43 /* Inventory System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inventory System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE310A7C1E9F7B7C004A7B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE310A7E1E9F7B7C004A7B43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE310A7F1E9F7B7C004A7B43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE310A811E9F7B7C004A7B43 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		EE310A821E9F7B7C004A7B43 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		EE310A841E9F7B7C004A7B43 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EE310A851E9F7B7C004A7B43 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EE310A881E9F7B7C004A7B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE310A8A1E9F7B7C004A7B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE310A8D1E9F7B7C004A7B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE310A8F1E9F7B7C004A7B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE310A9E1E9FA178004A7B43 /* BoknoksExpressInventory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BoknoksExpressInventory.xcdatamodel; sourceTree = "<group>"; };
+		EE310AA61E9FA190004A7B43 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EE310AA71E9FA4C7004A7B43 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		EE310AA81E9FA4C7004A7B43 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		EE310AA91E9FA4C7004A7B43 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		EE310AB21EA0C236004A7B43 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EE310AB31EA0C236004A7B43 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		EE310AB51EA0D53F004A7B43 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		EE310AB61EA0D53F004A7B43 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		EEEBD64A1EA5027F00323F22 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		EEEBD64B1EA5027F00323F22 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE310A751E9F7B7C004A7B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4A27C0FCFBB5D43A06F2EF /* libPods-Inventory System.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3173FDE573578D9634A0B7E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				523207225E2648C1CD5284AE /* libPods-Inventory System.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E875B075EE8852604E08A16F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E95F2BB1D0942BD8FAF62CF /* Pods-Inventory System.debug.xcconfig */,
+				0A64E6C3BC16C365B565B12A /* Pods-Inventory System.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE310A6F1E9F7B7C004A7B43 = {
+			isa = PBXGroup;
+			children = (
+				EE310A7A1E9F7B7C004A7B43 /* Inventory System */,
+				EE310A791E9F7B7C004A7B43 /* Products */,
+				E875B075EE8852604E08A16F /* Pods */,
+				3173FDE573578D9634A0B7E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE310A791E9F7B7C004A7B43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE310A781E9F7B7C004A7B43 /* Inventory System.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE310A7A1E9F7B7C004A7B43 /* Inventory System */ = {
+			isa = PBXGroup;
+			children = (
+				EE310A9C1E9FA178004A7B43 /* Data */,
+				EE310A7E1E9F7B7C004A7B43 /* AppDelegate.h */,
+				EE310A7F1E9F7B7C004A7B43 /* AppDelegate.m */,
+				EE310A811E9F7B7C004A7B43 /* FirstViewController.h */,
+				EE310A821E9F7B7C004A7B43 /* FirstViewController.m */,
+				EE310A841E9F7B7C004A7B43 /* SecondViewController.h */,
+				EE310A851E9F7B7C004A7B43 /* SecondViewController.m */,
+				EEEBD64A1EA5027F00323F22 /* ThirdViewController.h */,
+				EEEBD64B1EA5027F00323F22 /* ThirdViewController.m */,
+				EE310AB21EA0C236004A7B43 /* DetailViewController.h */,
+				EE310AB31EA0C236004A7B43 /* DetailViewController.m */,
+				EE310AB51EA0D53F004A7B43 /* AddViewController.h */,
+				EE310AB61EA0D53F004A7B43 /* AddViewController.m */,
+				EE310AA71E9FA4C7004A7B43 /* CustomTableViewCell.h */,
+				EE310AA81E9FA4C7004A7B43 /* CustomTableViewCell.m */,
+				EE310AA91E9FA4C7004A7B43 /* CustomTableViewCell.xib */,
+				EE310A871E9F7B7C004A7B43 /* Main.storyboard */,
+				EE310A8A1E9F7B7C004A7B43 /* Assets.xcassets */,
+				EE310A8C1E9F7B7C004A7B43 /* LaunchScreen.storyboard */,
+				EE310A8F1E9F7B7C004A7B43 /* Info.plist */,
+				EE310A7B1E9F7B7C004A7B43 /* Supporting Files */,
+			);
+			path = "Inventory System";
+			sourceTree = "<group>";
+		};
+		EE310A7B1E9F7B7C004A7B43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE310AA61E9FA190004A7B43 /* PrefixHeader.pch */,
+				EE310A7C1E9F7B7C004A7B43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE310A9C1E9FA178004A7B43 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EE310A9D1E9FA178004A7B43 /* BoknoksExpressInventory.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE310A771E9F7B7C004A7B43 /* Inventory System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE310A921E9F7B7C004A7B43 /* Build configuration list for PBXNativeTarget "Inventory System" */;
+			buildPhases = (
+				C15C134300F29D5C4BD54FAA /* [CP] Check Pods Manifest.lock */,
+				EE310A741E9F7B7C004A7B43 /* Sources */,
+				EE310A751E9F7B7C004A7B43 /* Frameworks */,
+				EE310A761E9F7B7C004A7B43 /* Resources */,
+				F96452ED80D933F4B4D01AF5 /* [CP] Embed Pods Frameworks */,
+				7D8DABC8BE530FC42FB0B689 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Inventory System";
+			productName = "Inventory System";
+			productReference = EE310A781E9F7B7C004A7B43 /* Inventory System.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE310A701E9F7B7C004A7B43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Charisse Marie Napenas";
+				TargetAttributes = {
+					EE310A771E9F7B7C004A7B43 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GW6ME957VR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE310A731E9F7B7C004A7B43 /* Build configuration list for PBXProject "Inventory System" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE310A6F1E9F7B7C004A7B43;
+			productRefGroup = EE310A791E9F7B7C004A7B43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE310A771E9F7B7C004A7B43 /* Inventory System */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE310A761E9F7B7C004A7B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE310A8E1E9F7B7C004A7B43 /* LaunchScreen.storyboard in Resources */,
+				EE310A8B1E9F7B7C004A7B43 /* Assets.xcassets in Resources */,
+				EE310AAB1E9FA4C7004A7B43 /* CustomTableViewCell.xib in Resources */,
+				EE310A891E9F7B7C004A7B43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D8DABC8BE530FC42FB0B689 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Inventory System/Pods-Inventory System-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C15C134300F29D5C4BD54FAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F96452ED80D933F4B4D01AF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Inventory System/Pods-Inventory System-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE310A741E9F7B7C004A7B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE310A861E9F7B7C004A7B43 /* SecondViewController.m in Sources */,
+				EE310A801E9F7B7C004A7B43 /* AppDelegate.m in Sources */,
+				EE310A831E9F7B7C004A7B43 /* FirstViewController.m in Sources */,
+				EE310A7D1E9F7B7C004A7B43 /* main.m in Sources */,
+				EE310AA31E9FA178004A7B43 /* BoknoksExpressInventory.xcdatamodeld in Sources */,
+				EEEBD64C1EA5027F00323F22 /* ThirdViewController.m in Sources */,
+				EE310AAA1E9FA4C7004A7B43 /* CustomTableViewCell.m in Sources */,
+				EE310AB71EA0D53F004A7B43 /* AddViewController.m in Sources */,
+				EE310AB41EA0C236004A7B43 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE310A871E9F7B7C004A7B43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE310A881E9F7B7C004A7B43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE310A8C1E9F7B7C004A7B43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE310A8D1E9F7B7C004A7B43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE310A901E9F7B7C004A7B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE310A911E9F7B7C004A7B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE310A931E9F7B7C004A7B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E95F2BB1D0942BD8FAF62CF /* Pods-Inventory System.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GW6ME957VR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Inventory System/PrefixHeader.pch";
+				INFOPLIST_FILE = "Inventory System/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boknoks.Inventory-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		EE310A941E9F7B7C004A7B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A64E6C3BC16C365B565B12A /* Pods-Inventory System.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GW6ME957VR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Inventory System/PrefixHeader.pch";
+				INFOPLIST_FILE = "Inventory System/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boknoks.Inventory-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE310A731E9F7B7C004A7B43 /* Build configuration list for PBXProject "Inventory System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE310A901E9F7B7C004A7B43 /* Debug */,
+				EE310A911E9F7B7C004A7B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE310A921E9F7B7C004A7B43 /* Build configuration list for PBXNativeTarget "Inventory System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE310A931E9F7B7C004A7B43 /* Debug */,
+				EE310A941E9F7B7C004A7B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE310A9D1E9FA178004A7B43 /* BoknoksExpressInventory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE310A9E1E9FA178004A7B43 /* BoknoksExpressInventory.xcdatamodel */,
+			);
+			currentVersion = EE310A9E1E9FA178004A7B43 /* BoknoksExpressInventory.xcdatamodel */;
+			path = BoknoksExpressInventory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE310A701E9F7B7C004A7B43 /* Project object */;
+}
